@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS libros(
     Id_libro INT PRIMARY KEY,
     titulo_libro VARCHAR(200) NOT NULL,
     autor_libro VARCHAR(100) NOT NULL,
-    anio_publicacion INT NOT NULL
+    año_publicacion INT NOT NULL
 );
 
 
